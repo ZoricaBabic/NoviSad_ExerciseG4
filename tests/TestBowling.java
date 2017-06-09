@@ -47,7 +47,24 @@ public class TestBowling {
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(1,4);
 		Frame frame1 = new Frame(4,5);
+		game.addFrame(frame);
+		game.addFrame(frame1);
 		assertEquals(14,game.score());
 	}
+	
+	@Test
+	public void testGameStrike(){
+		
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(10,0);
+		Frame frame1 = new Frame(5,4);
+		game.addFrame(frame);
+		game.addFrame(frame1);
+		assertEquals(28, game.score());
+		
+		
+	}
+	
+	
 
 }
