@@ -1,2 +1,10 @@
 FileOpenedAction 1497030602202 TestBowling.java 165 1 1 0
 EditAction 1497030869202 TestBowling.java 193 1 0 0
+CompilationAction 1497030874167 TestBowling.java
+CompilationAction 1497030874169 TestBowling.java
+CompilationAction 1497030874169 TestBowling.java
+CompilationAction 1497030881649 TestBowling.java
+CompilationAction 1497030881650 TestBowling.java
+CompilationAction 1497030881988 TestBowling.java
+RefactoringAction 1497030893467 Frame.java ADD Frame() METHOD
+EditAction 1497030898381 Frame.java 704 7 7 0

@@ -7,7 +7,7 @@ public class TestBowling {
 	@Test
 	public void test() {
 		
-		Frame frame = new Frame();ž
+		Frame frame = new Frame();
 		assertNotNull(frame);
 	}
 

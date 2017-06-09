@@ -7,6 +7,11 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
+	public Frame(){
+		
+		
+	}
+	
 	public int getFirstThrow() {
 		return firstThrow;
 	}
