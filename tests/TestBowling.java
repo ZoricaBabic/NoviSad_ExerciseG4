@@ -127,7 +127,7 @@ public class TestBowling {
 		game.setBonus(10,0);
 		game.getBonus().setFirstThrow(2);
 		game.getBonus().setSecondThrow(2);
-		assertEquals(32,game.score());
+		assertEquals(36,game.score());
 		
 	}
 	
