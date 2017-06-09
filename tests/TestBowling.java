@@ -117,6 +117,27 @@ public class TestBowling {
 		
 		BowlingGame game = new BowlingGame();
 		
+		/*for(int i = 0; i<9; i++){
+			
+			game.addFrame(new Frame(1,1));
+			
+		}*/
+		Frame frame = new Frame();
+		frame.loops(9, 1, 1);
+		Frame frame10 = new Frame(10,0);
+		game.addFrame(frame10);
+		game.setBonus(10,0);
+		game.getBonus().setFirstThrow(2);
+		game.getBonus().setSecondThrow(2);
+		assertEquals(36,game.score());
+		
+	}
+	
+	@Test
+	public void testBonus1(){
+		
+BowlingGame game = new BowlingGame();
+		
 		for(int i = 0; i<9; i++){
 			
 			game.addFrame(new Frame(1,1));
@@ -124,10 +145,13 @@ public class TestBowling {
 		}
 		Frame frame10 = new Frame(10,0);
 		game.addFrame(frame10);
-		game.setBonus(10,0);
+		game.setBonus(5,5);
+		game.setBonus(5,5);
 		game.getBonus().setFirstThrow(2);
 		game.getBonus().setSecondThrow(2);
-		assertEquals(36,game.score());
+		assertEquals()
+		
+		
 		
 	}
 	

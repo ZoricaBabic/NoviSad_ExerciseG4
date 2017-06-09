@@ -182,3 +182,6 @@ RefactoringAction 1497035198729 Frame.java RENAME loops()=>void loops(int) METHO
 RefactoringAction 1497035242393 Frame.java RENAME loops(int)=>void loops(int, int) METHOD
 RefactoringAction 1497035249947 Frame.java RENAME loops(int, int)=>void loops(int, int, int) METHOD
 EditAction 1497035287084 Frame.java 1314 11 13 0
+RefactoringAction 1497035299940 TestBowling.java REMOVE testBonus1() METHOD
+RefactoringAction 1497035301503 TestBowling.java ADD void testBonus1() METHOD
+EditAction 1497035336466 TestBowling.java 3086 12 49 10
