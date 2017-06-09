@@ -10,7 +10,7 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	
 
-	private Frame bonus;
+	private Frame bonus=new Frame(0,0);
 	
 	public BowlingGame(){}
 	
