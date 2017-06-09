@@ -17,5 +17,12 @@ public class TestBowling {
 		Frame frame = new Frame(2,3);
 		assertEquals(5,frame.score());
 	}
+	
+	@Testž
+	public void testFrame2(){
+		
+		Frame frame = new Frame(10,0);
+		assertTrue(frame.isStrike());
+	}
 
 }

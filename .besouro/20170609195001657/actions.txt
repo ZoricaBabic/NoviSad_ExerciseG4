@@ -17,3 +17,7 @@ EditAction 1497031020350 TestBowling.java 306 2 4 2
 UnitTestCaseAction 1497031025610 TestBowling.java FAIL
 UnitTestSessionAction 1497031025612 TestBowling.java FAIL
 EditAction 1497031049865 Frame.java 708 7 7 0
+UnitTestCaseAction 1497031057311 TestBowling.java OK
+UnitTestSessionAction 1497031057312 TestBowling.java OK
+RefactoringAction 1497031077533 TestBowling.java ADD void testFrame2() METHOD
+EditAction 1497031100834 TestBowling.java 421 3 6 3
