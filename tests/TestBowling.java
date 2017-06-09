@@ -18,7 +18,7 @@ public class TestBowling {
 		assertEquals(5,frame.score());
 	}
 	
-	@Testž
+	@Test
 	public void testFrame2(){
 		
 		Frame frame = new Frame(10,0);
