@@ -122,3 +122,4 @@ UnitTestCaseAction 1497033865273 TestBowling.java OK
 UnitTestSessionAction 1497033865300 TestBowling.java OK
 RefactoringAction 1497033929112 TestBowling.java ADD void testBonus() METHOD
 EditAction 1497034120284 TestBowling.java 2576 11 46 10
+EditAction 1497034236109 BowlingGame.java 1693 4 6 0
