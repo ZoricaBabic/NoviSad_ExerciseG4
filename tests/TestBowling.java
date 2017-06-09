@@ -89,6 +89,19 @@ public class TestBowling {
 		assertEquals(17, game.score());
 		
 		
+	}
+	
+	@Test
+	public void testGameSpare1(){
+		
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(5,5);
+		Frame frame1 = new Frame(5,5);
+		Frame frame2 = new Frame(2,2);
+		game.addFrame(frame);
+		game.addFrame(frame1);
+		game.addFrame(frame2);
+		assertEquals(31, game.score());
 		
 	}
 	

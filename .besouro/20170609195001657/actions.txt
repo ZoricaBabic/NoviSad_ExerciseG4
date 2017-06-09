@@ -88,3 +88,7 @@ EditAction 1497032724542 TestBowling.java 1774 9 38 9
 UnitTestCaseAction 1497032731114 TestBowling.java FAIL
 UnitTestSessionAction 1497032731116 TestBowling.java FAIL
 EditAction 1497032812482 BowlingGame.java 1347 4 4 0
+UnitTestCaseAction 1497032819361 TestBowling.java OK
+UnitTestSessionAction 1497032819362 TestBowling.java OK
+RefactoringAction 1497032833008 TestBowling.java ADD void testGameSpare1() METHOD
+EditAction 1497032966605 TestBowling.java 2079 10 46 10
