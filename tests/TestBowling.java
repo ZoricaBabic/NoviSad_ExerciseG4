@@ -112,6 +112,23 @@ public class TestBowling {
 		
 	}
 	
+	@Test
+	public void testBonus(){
+		
+		BowlingGame game = new BowlingGame();
+		
+		for(int i = 0; i<9; i++){
+			
+			game.addFrame(new Frame(1,1));
+			
+		}
+		Frame frame10 = new Frame(10,0);
+		game.setBonus(10,0);
+		game.addFrame(new Frame(2,2));
+		assertEquals(42,game.score());
+		
+	}
+	
 	
 	
 	

@@ -118,3 +118,7 @@ CompilationAction 1497033836803 TestBowling.java
 CompilationAction 1497033848640 TestBowling.java
 EditAction 1497033854750 BowlingGame.java 1574 4 4 0
 EditAction 1497033858044 BowlingException.java 102 1 0 0
+UnitTestCaseAction 1497033865273 TestBowling.java OK
+UnitTestSessionAction 1497033865300 TestBowling.java OK
+RefactoringAction 1497033929112 TestBowling.java ADD void testBonus() METHOD
+EditAction 1497034120284 TestBowling.java 2576 11 46 10
