@@ -188,3 +188,16 @@ EditAction 1497035336466 TestBowling.java 3086 12 49 10
 CompilationAction 1497035343313 TestBowling.java
 CompilationAction 1497035343314 TestBowling.java
 EditAction 1497035343629 BowlingGame.java 1975 8 10 0
+UnitTestCaseAction 1497035352038 TestBowling.java FAIL
+UnitTestSessionAction 1497035352039 TestBowling.java FAIL
+CompilationAction 1497035403878 TestBowling.java
+CompilationAction 1497035403880 TestBowling.java
+CompilationAction 1497035404116 TestBowling.java
+CompilationAction 1497035404117 TestBowling.java
+CompilationAction 1497035413507 TestBowling.java
+CompilationAction 1497035413508 TestBowling.java
+CompilationAction 1497035413748 TestBowling.java
+CompilationAction 1497035413749 TestBowling.java
+CompilationAction 1497035483787 TestBowling.java
+CompilationAction 1497035483788 TestBowling.java
+EditAction 1497035512599 BowlingGame.java 2040 8 10 0

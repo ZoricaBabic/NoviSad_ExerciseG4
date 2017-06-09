@@ -117,13 +117,12 @@ public class TestBowling {
 		
 		BowlingGame game = new BowlingGame();
 		
-		/*for(int i = 0; i<9; i++){
+		for(int i = 0; i<9; i++){
 			
 			game.addFrame(new Frame(1,1));
 			
-		}*/
-		Frame frame = new Frame();
-		frame.loops(9, 1, 1);
+		}
+	
 		Frame frame10 = new Frame(10,0);
 		game.addFrame(frame10);
 		game.setBonus(10,0);
@@ -136,20 +135,19 @@ public class TestBowling {
 	@Test
 	public void testBonus1(){
 		
-BowlingGame game = new BowlingGame();
+		BowlingGame game = new BowlingGame();
 		
 		for(int i = 0; i<9; i++){
 			
 			game.addFrame(new Frame(1,1));
 			
 		}
-		Frame frame10 = new Frame(10,0);
+		Frame frame10 = new Frame(5,5);
 		game.addFrame(frame10);
-		game.setBonus(5,5);
 		game.setBonus(5,5);
 		game.getBonus().setFirstThrow(2);
 		game.getBonus().setSecondThrow(2);
-		assertEquals()
+		assertEquals(32, game.score());
 		
 		
 		

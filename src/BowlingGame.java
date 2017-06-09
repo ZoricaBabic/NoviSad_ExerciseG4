@@ -27,6 +27,9 @@ public class BowlingGame {
 		if(frame.isStrike() == true){
 			
 			addFrame(bonus);
+		} else if(frame.isSpare() == true){
+			
+			addFrame(bonus);
 		}
 		
 
