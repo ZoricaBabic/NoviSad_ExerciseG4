@@ -150,7 +150,6 @@ public class TestBowling {
 		assertEquals(34, game.score());
 		
 		
-		
 	}
 	
 	
