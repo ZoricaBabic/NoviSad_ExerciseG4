@@ -123,3 +123,20 @@ UnitTestSessionAction 1497033865300 TestBowling.java OK
 RefactoringAction 1497033929112 TestBowling.java ADD void testBonus() METHOD
 EditAction 1497034120284 TestBowling.java 2576 11 46 10
 EditAction 1497034236109 BowlingGame.java 1693 4 6 0
+UnitTestCaseAction 1497034244537 TestBowling.java FAIL
+UnitTestSessionAction 1497034244559 TestBowling.java FAIL
+RefactoringAction 1497034284767 BowlingGame.java ADD List<Frame> getFrames() METHOD
+RefactoringAction 1497034284768 BowlingGame.java ADD void setFrames(List<Frame>) METHOD
+RefactoringAction 1497034284769 BowlingGame.java ADD Frame getBonus() METHOD
+RefactoringAction 1497034284770 BowlingGame.java ADD void setBonus(Frame) METHOD
+RefactoringAction 1497034299792 BowlingGame.java REMOVE getBonus() METHOD
+RefactoringAction 1497034299793 BowlingGame.java REMOVE setBonus(Frame) METHOD
+RefactoringAction 1497034299795 BowlingGame.java REMOVE setFrames(List<Frame>) METHOD
+RefactoringAction 1497034299796 BowlingGame.java REMOVE getFrames() METHOD
+RefactoringAction 1497034306353 BowlingGame.java ADD List<Frame> getFrames() METHOD
+RefactoringAction 1497034306354 BowlingGame.java ADD void setFrames(List<Frame>) METHOD
+RefactoringAction 1497034306356 BowlingGame.java ADD Frame getBonus() METHOD
+RefactoringAction 1497034306356 BowlingGame.java ADD void setBonus(Frame) METHOD
+RefactoringAction 1497034394894 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1497034394897 Frame.java ADD void setSecondThrow(int) METHOD
+EditAction 1497034398011 TestBowling.java 2682 11 40 9

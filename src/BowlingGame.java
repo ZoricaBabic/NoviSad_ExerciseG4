@@ -8,6 +8,8 @@ import java.util.List;
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
+	
+
 	private Frame bonus;
 	
 	public BowlingGame(){}
@@ -67,5 +69,21 @@ public class BowlingGame {
 		}
 		
 		return s;
+	}
+	
+	public List<Frame> getFrames() {
+		return frames;
+	}
+
+	public void setFrames(List<Frame> frames) {
+		this.frames = frames;
+	}
+
+	public Frame getBonus() {
+		return bonus;
+	}
+
+	public void setBonus(Frame bonus) {
+		this.bonus = bonus;
 	}
 }
