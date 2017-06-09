@@ -30,7 +30,15 @@ public class BowlingGame {
 		
 		for(int i = 0; i<frames.size(); i++){
 			
-			s = s + frames.get(i).score();
+			if(frames.get(i).isStrike() == true && frames.get(i+1).isStrike() == false){
+				
+				s = s+frames.get(i).score() + frames.get(i+1).score();
+			} else {
+				
+				s = s + frames.get(i).score();
+			}
+			
+			
 		}
 		
 		return s;
