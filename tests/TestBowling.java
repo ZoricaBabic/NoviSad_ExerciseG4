@@ -128,7 +128,7 @@ public class TestBowling {
 		Frame frame = game.getFrames().get(game.getFrames().size()-1);
 		frame.setFirstThrow(2);
 		frame.setSecondThrow(2);
-		assertEquals(42,game.score());
+		assertEquals(32,game.score());
 		
 	}
 	
