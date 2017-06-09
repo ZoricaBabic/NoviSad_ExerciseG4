@@ -26,7 +26,7 @@ public class BowlingGame {
 		Frame frame = new Frame(firstThrow, secondThrow);
 		if(frame.isStrike() == true){
 			
-			addFrame(new Frame(0,0));
+			addFrame(bonus);
 		}
 		
 
