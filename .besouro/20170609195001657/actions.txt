@@ -14,3 +14,6 @@ RefactoringAction 1497030942285 TestBowling.java ADD void testFrame FIELD
 RefactoringAction 1497030961799 TestBowling.java RENAME testFrame=>void testFrame1() METHOD
 EditAction 1497031016856 Frame.java 685 7 7 0
 EditAction 1497031020350 TestBowling.java 306 2 4 2
+UnitTestCaseAction 1497031025610 TestBowling.java FAIL
+UnitTestSessionAction 1497031025612 TestBowling.java FAIL
+EditAction 1497031049865 Frame.java 708 7 7 0
