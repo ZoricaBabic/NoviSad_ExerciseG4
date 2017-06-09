@@ -12,6 +12,11 @@ public class Frame {
 		
 	}
 	
+	public Frame(int firstThrow, int secondThrow, int thirdThrow) throws BowlingException{
+		
+		throw new BowlingException();
+	}
+	
 	public int getFirstThrow() {
 		return firstThrow;
 	}

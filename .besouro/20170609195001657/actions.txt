@@ -95,3 +95,21 @@ EditAction 1497032966605 TestBowling.java 2079 10 46 10
 UnitTestCaseAction 1497032971374 TestBowling.java FAIL
 UnitTestSessionAction 1497032971376 TestBowling.java FAIL
 EditAction 1497033086051 BowlingGame.java 1580 4 4 0
+UnitTestCaseAction 1497033096691 TestBowling.java FAIL
+UnitTestSessionAction 1497033096693 TestBowling.java FAIL
+UnitTestCaseAction 1497033327389 TestBowling.java FAIL
+UnitTestSessionAction 1497033327391 TestBowling.java FAIL
+UnitTestCaseAction 1497033336111 TestBowling.java FAIL
+UnitTestSessionAction 1497033336118 TestBowling.java FAIL
+RefactoringAction 1497033510117 TestBowling.java REMOVE testGameSpare1() METHOD
+RefactoringAction 1497033594772 TestBowling.java ADD void testGameSpare1() METHOD
+RefactoringAction 1497033596811 TestBowling.java REMOVE testGameSpare1() METHOD
+RefactoringAction 1497033618885 TestBowling.java ADD void testGameSpare1() METHOD
+RefactoringAction 1497033647997 TestBowling.java REMOVE testGameSpare1() METHOD
+RefactoringAction 1497033658091 TestBowling.java ADD void testException() METHOD
+RefactoringAction 1497033763364 BowlingException.java ADD BowlingException() METHOD
+RefactoringAction 1497033784471 Frame.java ADD Frame()/2 METHOD
+RefactoringAction 1497033788986 Frame.java RENAME Frame()/2=>Frame(int) METHOD
+RefactoringAction 1497033796001 Frame.java RENAME Frame(int)=>Frame(int, int)/2 METHOD
+RefactoringAction 1497033806039 Frame.java RENAME Frame(int, int)/2=>Frame(int, int, int) METHOD
+EditAction 1497033826162 Frame.java 922 8 10 0
