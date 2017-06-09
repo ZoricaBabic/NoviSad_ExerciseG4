@@ -51,6 +51,15 @@ public class Frame {
 		return false;
 	}
 	
+	public void loops(int count,int firstThrow, int secondThrow){
+		
+		for(int i=0; i<count; i++){
+			
+			BowlingGame game = new BowlingGame();
+			game.addFrame(new Frame(firstThrow,secondThrow));
+		}
+	}
+	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
 		

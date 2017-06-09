@@ -171,3 +171,14 @@ EditAction 1497034963029 BowlingGame.java 1959 8 10 0
 UnitTestCaseAction 1497034968946 TestBowling.java FAIL
 UnitTestSessionAction 1497034968949 TestBowling.java FAIL
 EditAction 1497034991540 TestBowling.java 2644 11 48 10
+UnitTestCaseAction 1497034997068 TestBowling.java OK
+UnitTestSessionAction 1497034997070 TestBowling.java OK
+RefactoringAction 1497035061019 TestBowling.java ADD void testBonus1() METHOD
+RefactoringAction 1497035151585 BowlingGame.java ADD void petlja FIELD
+RefactoringAction 1497035153117 BowlingGame.java RENAME petlja=>void petlje() METHOD
+RefactoringAction 1497035166756 BowlingGame.java REMOVE petlje() METHOD
+RefactoringAction 1497035174132 Frame.java ADD void loops() METHOD
+RefactoringAction 1497035198729 Frame.java RENAME loops()=>void loops(int) METHOD
+RefactoringAction 1497035242393 Frame.java RENAME loops(int)=>void loops(int, int) METHOD
+RefactoringAction 1497035249947 Frame.java RENAME loops(int, int)=>void loops(int, int, int) METHOD
+EditAction 1497035287084 Frame.java 1314 11 13 0
