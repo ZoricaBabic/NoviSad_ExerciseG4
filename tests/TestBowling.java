@@ -91,8 +91,7 @@ public class TestBowling {
 		
 	}
 	
-	@Test
-	public void testGameSpare1(){
+	/*public void testGameSpare1(){
 		
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(5,5);
@@ -103,7 +102,19 @@ public class TestBowling {
 		game.addFrame(frame2);
 		assertEquals(31, game.score());
 		
+	}*/
+	
+	@Test(expected=BowlingException.class)
+	public void testException(){
+		
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(2,5,3);
+		
 	}
+	
+	
+	
+	
 	
 	
 

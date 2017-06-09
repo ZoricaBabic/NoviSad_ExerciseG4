@@ -113,3 +113,4 @@ RefactoringAction 1497033788986 Frame.java RENAME Frame()/2=>Frame(int) METHOD
 RefactoringAction 1497033796001 Frame.java RENAME Frame(int)=>Frame(int, int)/2 METHOD
 RefactoringAction 1497033806039 Frame.java RENAME Frame(int, int)/2=>Frame(int, int, int) METHOD
 EditAction 1497033826162 Frame.java 922 8 10 0
+EditAction 1497033833620 TestBowling.java 2250 10 40 9
