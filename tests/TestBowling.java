@@ -105,7 +105,7 @@ public class TestBowling {
 	}*/
 	
 	@Test(expected=BowlingException.class)
-	public void testException(){
+	public void testException() throws BowlingException{
 		
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(2,5,3);

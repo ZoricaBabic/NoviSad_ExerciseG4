@@ -20,7 +20,7 @@ public class BowlingGame {
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		//to be imple
 	}
 	
 	// Returns the game score
