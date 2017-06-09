@@ -1,0 +1,2 @@
+FileOpenedAction 1497030602202 TestBowling.java 165 1 1 0
+EditAction 1497030869202 TestBowling.java 193 1 0 0
