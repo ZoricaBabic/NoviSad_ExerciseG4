@@ -140,3 +140,14 @@ RefactoringAction 1497034306356 BowlingGame.java ADD void setBonus(Frame) METHOD
 RefactoringAction 1497034394894 Frame.java ADD void setFirstThrow(int) METHOD
 RefactoringAction 1497034394897 Frame.java ADD void setSecondThrow(int) METHOD
 EditAction 1497034398011 TestBowling.java 2682 11 40 9
+CompilationAction 1497034401227 TestBowling.java
+CompilationAction 1497034401228 TestBowling.java
+CompilationAction 1497034401229 TestBowling.java
+CompilationAction 1497034401230 TestBowling.java
+CompilationAction 1497034401231 TestBowling.java
+CompilationAction 1497034570441 TestBowling.java
+CompilationAction 1497034570442 TestBowling.java
+CompilationAction 1497034570443 TestBowling.java
+CompilationAction 1497034570806 TestBowling.java
+CompilationAction 1497034570807 TestBowling.java
+EditAction 1497034572367 Frame.java 1102 10 12 0
